@@ -5,5 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>변수 1</title>
   </head>
-  <body></body>
+  <body>
+    <script>
+      // 변수공부
+      // 변수 : 데이터를 담는 상자
+      // 변수 선언과 할당
+      let name = "하경미";
+      console.log(name);
+      name = "홍길동";
+      const age = 50; // let은 재할당이 되는데, const는 재할당이 안됨
+      console.log(name);
+      console.log(age);
+      let userName = prompt("이름을 입력하세요", "하경미"); // 스캐너임
+      console.log(userName);
+      document.write(`<h1>이름 : ${userName} </h1> <p>나이 : ${age}</p>`);
+      // 문자열에서 중간에 변수를 넣을때는 ${} 를 하면 됨
+    </script>
+  </body>
 </html>
